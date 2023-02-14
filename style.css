@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  width:50px;
+  padding:5px;
+  border-radius:10%;
+  cursor: pointer;
+  margin:10px;
+}
+
+.fill{
+  background-color: red;
+}
+
+.fillBlue{
+  background-color: blue;
+}
+#table, #table2{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+
+.table-container{
+  display: flex; 
+  flex-direction: column;
+  
+}
+
+table{
+  border-collapse: collapse;
+  margin:10px;
+}
+
+td{
+  border:2px solid black;
+
+  width:80px;
+  height:30px;
+}
